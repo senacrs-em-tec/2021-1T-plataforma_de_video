@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header img{
+    margin: 5px 40px;
+}
+header #Up{
+    width: 100%;
+    height: 110px;
+    background-color: #FF3240;
+    box-shadow: 0 0 1em rgb(43, 43, 43);
+    position: relative;
+    z-index: +3;
+}
+header #Down{
+    width: 100%;
+    color: white;
+    background-color: rgb(211, 39, 51, 0.95);
+    position: absolute;
+    z-index: +2;
+}
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+header #Down a{
+    color: white;
+    margin-left: 35px;
+}
+header #Down a:hover{
+    color: rgb(0, 0, 0);
+}
+header button{
+    width: 100%;
+    border: transparent;
+}
+header button span{
+    float: left;
+    color: white;
+    margin-left: 20px;
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+main{
+    margin-top: 45px;
+    background-color:#00161d;
+    height:auto;
+    height: 2450px;
+}
+.swiper-container a{
+    color: white;
+}
+.swiper-slide{
+    background-color: transparent !important;
+}
+main a{
+    background-color: transparent;
+}
+main a:hover{
+    color:#FF3240;
+}
+.swiper-container a:hover{
+    text-decoration: none;
+}
+main h1{
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+html, body{
+    position: relative;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    transition: .3s ease all;
+
+}
+.swiper-slide{
+    text-align: center;
+    background-color: rgb(25, 36, 48);
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-aling-items: center;
+    align-items: center;
+    transform: scale(1.1);
+}
+::after{
+    color: #ffffff;
+    background-color:transparent;
+}
+.d-block{
+    height: 750px;
+}
+.img-2{
+    height: auto;
+    width: 245px;
+    border-radius: 3px;
+}
+.img-2:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    
+}
+
+.swiper-slide{
+    margin-left: 40px ;
+    margin-right: 40px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.modal-content{
+    background:none;
+    border-color: transparent;
+    color: #FFFFFF;
+    
+}
+.modal-header{
+    background-color: transparent;
+    border: none;
+}
+.modal-footer{
+    border: none;
+}
+.titulo-modal h1{
+    color: #ffffff;
+}
+.modal-body {
+    text-align: center ;
+    display: flex;
+}
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: #001016;
+}
+footer a    {
+    text-decoration: none;
+    color: #FF3240;
+    margin: 100px;
+}
+footer a:hover{
+    color:white;
+    text-decoration: none;
+}
+footer p{
+    margin-top: 60px;
+    color: #FF3240;
+}
+footer div{
+    text-align:center;
+    margin-top: 10px;
+}
+
+
+
+
+
+    
+
+
+
